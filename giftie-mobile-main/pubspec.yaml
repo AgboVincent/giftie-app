@@ -1,0 +1,62 @@
+name: giftie_mobile
+description: Giftie Mobile Application
+
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^7.1.0
+  hydrated_bloc: ^7.0.0
+  cached_network_image: ^3.0.0
+  equatable: 
+  json_serializable:
+  json_annotation:
+  flutter_svg:
+  auto_route:
+  animated_splash_screen: ^1.0.1+2
+  curved_navigation_bar: ^1.0.1
+  dots_indicator: ^2.0.0
+  helper_widgets:
+    git:
+      url: https://github.com/divincoder/helper_widgets.git
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^2.0.6
+  auto_route_generator:
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+   - assets/svg/
+   - assets/png/
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: fonts/Poppins-Black.ttf
+        - asset: fonts/Poppins-Italic.ttf
+          style: italic
+        - asset: fonts/Poppins-Bold.ttf
+          weight: 700
+        - asset: fonts/Poppins-ExtraBold.ttf
+          weight: 800
+        - asset: fonts/Poppins-Regular.ttf
+          weight: 400
+        - asset: fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: fonts/Poppins-Light.ttf
+          weight: 300
+  
